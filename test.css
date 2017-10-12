@@ -32,7 +32,12 @@ li{
 
 
 }
-
+#Header h2 {
+        font-size: 80px;
+        font-family: "Arial";
+        color:green;
+        font-weight: bold;
+    }
 span {
     color: #FFBC00;
 }
@@ -91,8 +96,13 @@ ul {
     border: solid 8px black;
     text-align: center;
     background-color: #8E41D5;
+    color: white;
 }
-#Footer ul{
-    list-style-type: none;
-    padding-left:0px;
-}
+    #Footer ul {
+        list-style-type: none;
+        padding-left: 0px;
+        color: white;
+    }
+    #Footer li {
+        color: white;
+    }
